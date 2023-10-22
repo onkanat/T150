@@ -12,11 +12,11 @@ def ana():
                 sg.Text('d/dak'), sg.Text('Kesilen :'), sg.Output(key='-KSL-', size=(6,1)),sg.Text('Adet')]
     line_02 = [sg.Text('Kesme İlerlemesi :  '), sg.Output(key='-KSMI-', size=(6,1)), sg.Text('mm/dak'),
                sg.Text('Kalan :'), sg.Output(key='-KLN-', size=(6,1)), sg.Text('Adet')]
-    line_03 = [sg.Image('/Users/hakankilicaslan/GitHub/Machining_Formulas/T150/icons8-arrow-quill/icons8-arrow-50.png'),
-               sg.Image('/Users/hakankilicaslan/GitHub/Machining_Formulas/T150/icons8-arrow-quill-3/icons8-arrow-50.png'),
-                sg.Image('/Users/hakankilicaslan/GitHub/Machining_Formulas/T150/icons8-arrow-quill-2/icons8-arrow-50.png'),
-                sg.Button(image_filename='/Users/hakankilicaslan/GitHub/Machining_Formulas/T150/icons8-arrow-quill-3/icons8-arrow-50.png', key='-Exit-'),
-                sg.Button('GÜNCELLE', image_filename='/Users/hakankilicaslan/GitHub/Machining_Formulas/T150/icons8-arrow-quill-3/icons8-arrow-50.png', key='-Update-')
+    line_03 = [sg.Image('/Users/hakankilicaslan/GitHub/T150/T150/icons8-arrow-quill/icons8-arrow-50.png'),
+               sg.Image('/Users/hakankilicaslan/GitHub/T150/T150/icons8-arrow-quill-3/icons8-arrow-50.png'),
+                sg.Image('/Users/hakankilicaslan/GitHub/T150/T150/icons8-arrow-quill-2/icons8-arrow-50.png'),
+                sg.Button(image_filename='/Users/hakankilicaslan/GitHub/T150/T150/icons8-arrow-quill-3/icons8-arrow-50.png', key='-Exit-'),
+                sg.Button('GÜNCELLE', image_filename='/Users/hakankilicaslan/GitHub/T150/T150/icons8-arrow-quill-3/icons8-arrow-50.png', key='-Update-')
                 ]
     table_01 = [sg.Table(values=cut_data, headings=cut_heads ,col_widths=4, display_row_numbers=True, justification='center', num_rows=5, key='-table_01-' )]
     led_tx_rx = [

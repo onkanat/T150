@@ -20,7 +20,7 @@ def giris():
     line_02 = [sg.Text('Çap / En :'), sg.Input(key='-CAP-',size=(6,1)),
                     sg.Text('Kesim Boyu :'), sg.Input(key='-BOY-',size=(6,1)),
                     sg.Text('Kesim Adedi :'), sg.Input(key='-KESIM_ADET-',size=(6,1)),
-                    sg.Button('ONAYLA', image_filename='/Users/hakankilicaslan/GitHub/Machining_Formulas/T150/icons8-arrow-quill-3/icons8-arrow-50.png', key='-ONAYLA-')]
+                    sg.Button('ONAYLA', image_filename='/Users/hakankilicaslan/GitHub/T150/T150/icons8-arrow-quill-3/icons8-arrow-50.png', key='-ONAYLA-')]
     line_03 = [sg.HorizontalSeparator()]
 
     table_01 = [sg.Table(values=cut_data, headings=cut_heads ,col_widths=4, display_row_numbers=True, justification='center', num_rows=5, key='-table_01-' )]
